@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Samsung Remote</string>
+    <string name="remote_title">Samsung Smart TV Remote</string>
+    <string name="status_ready">IR emitter detected. Point your phone at the TV.</string>
+    <string name="status_no_ir">No IR emitter detected on this device.</string>
+    <string name="toast_command_sent">%1$s command sent.</string>
+    <string name="power">Power</string>
+    <string name="source">Source</string>
+    <string name="mute">Mute</string>
+    <string name="volume">Volume</string>
+    <string name="volume_up">+</string>
+    <string name="volume_down">-</string>
+    <string name="channel">Channel</string>
+    <string name="channel_up">CH +</string>
+    <string name="channel_down">CH -</string>
+    <string name="up">↑</string>
+    <string name="down">↓</string>
+    <string name="left">←</string>
+    <string name="right">→</string>
+    <string name="ok">OK</string>
+    <string name="menu">Menu</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="play_pause">Play / Pause</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+</resources>

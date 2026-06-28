@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SamsungRemote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:statusBarColor">@color/primaryDark</item>
+        <item name="android:navigationBarColor">@color/primaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <style name="Widget.SamsungRemote.RemoteButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">96dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/onSurface</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/surface</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="rippleColor">@color/secondary</item>
+    </style>
+
+    <style name="Widget.SamsungRemote.RemoteButton.Round" parent="Widget.SamsungRemote.RemoteButton">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="cornerRadius">32dp</item>
+    </style>
+
+    <style name="Widget.SamsungRemote.RemoteButton.Tall" parent="Widget.SamsungRemote.RemoteButton">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">76dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.SamsungRemote.RemoteButton.Grid" parent="Widget.SamsungRemote.RemoteButton">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="backgroundTint">@color/surfaceVariant</item>
+    </style>
+
+    <style name="Widget.SamsungRemote.RemoteButton.Wide" parent="Widget.SamsungRemote.RemoteButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="backgroundTint">@color/surfaceVariant</item>
+    </style>
+
+    <style name="Widget.SamsungRemote.RemoteButton.Number" parent="Widget.SamsungRemote.RemoteButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>
